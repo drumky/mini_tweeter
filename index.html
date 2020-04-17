@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css "
     />
-    <title>My JavaScript App</title>
+    <title>MicroPosts</title>
   </head>
   <body>
     <nav class="navbar navbar-dark bg-primary mb-3">
@@ -23,7 +23,7 @@
 
     <div class="container postsContainer">
       <div class="card card-body card-form">
-        <h1>Your complaints</h1>
+        <h1>Your microposts</h1>
         <p class="lead">What's it gonna be?</p>
         <div class="form-group">
           <input
@@ -37,11 +37,13 @@
           <textarea
             id="body"
             class="form-control"
-            placeholder="Complaining starts here ..."
+            placeholder="Posts starts here ..."
           >
           </textarea>
           <input type="hidden" id="id" value="" />
-          <button class="post-submit btn btn-primary btn-block">Post it</button>
+          <button class="post-submit btn btn-primary btn-block mt-4">
+            Post it
+          </button>
           <span class="form-end"></span>
         </div>
         <br />
